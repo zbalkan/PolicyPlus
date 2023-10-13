@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <StartupObject>PolicyPlus.csharp.Program</StartupObject>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Forms\DetailAdmx.cs" />
+    <Compile Update="Forms\DetailCategory.cs" />
+    <Compile Update="Forms\DetailPolicy.cs" />
+    <Compile Update="Forms\DetailProduct.cs" />
+    <Compile Update="Forms\DetailSupport.cs" />
+    <Compile Update="Forms\DownloadAdmx.cs" />
+    <Compile Update="Forms\EditPol.cs" />
+    <Compile Update="Forms\EditPolDelete.cs" />
+    <Compile Update="Forms\EditPolKey.cs" />
+    <Compile Update="Forms\EditPolMultiStringData.cs" />
+    <Compile Update="Forms\EditPolNumericData.cs" />
+    <Compile Update="Forms\EditPolStringData.cs" />
+    <Compile Update="Forms\EditPolValue.cs" />
+    <Compile Update="Forms\EditSetting.cs" />
+    <Compile Update="Forms\Components\DoubleClickIgnoringTreeView.cs" />
+    <Compile Update="Forms\Components\WideRangeNumericUpDown.cs" />
+    <Compile Update="Forms\ExportReg.cs" />
+    <Compile Update="Forms\FilterOptions.cs" />
+    <Compile Update="Forms\FindById.cs" />
+    <Compile Update="Forms\FindByRegistry.cs" />
+    <Compile Update="Forms\FindByText.cs" />
+    <Compile Update="Forms\FindResults.cs" />
+    <Compile Update="Forms\ImportReg.cs" />
+    <Compile Update="Forms\ImportSpol.cs" />
+    <Compile Update="Forms\InspectPolicyElements.cs" />
+    <Compile Update="Forms\InspectSpolFragment.cs" />
+    <Compile Update="Forms\LanguageOptions.cs" />
+    <Compile Update="Forms\ListEditor.cs" />
+    <Compile Update="Forms\LoadedAdmx.cs" />
+    <Compile Update="Forms\LoadedProducts.cs" />
+    <Compile Update="Forms\LoadedSupportDefinitions.cs" />
+    <Compile Update="Forms\Main.cs" />
+    <Compile Update="Forms\Main.Designer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\OpenAdmxFolder.cs" />
+    <Compile Update="Forms\OpenPol.cs" />
+    <Compile Update="Forms\OpenSection.cs" />
+    <Compile Update="Forms\OpenUserGpo.cs" />
+    <Compile Update="Forms\OpenUserRegistry.cs" />
+  </ItemGroup>
+
+</Project>
